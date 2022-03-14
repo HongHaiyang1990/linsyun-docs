@@ -3,6 +3,7 @@ module.exports = {
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: '/docs/',
   description: '操作手册',
+  dest: './dist',
   themeConfig: {
     logo: '/logo.png',
     nav: [
