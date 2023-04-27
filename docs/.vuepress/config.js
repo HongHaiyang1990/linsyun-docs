@@ -28,8 +28,8 @@ module.exports = {
       { text: "商户综合平台", link: "http://s.linsyun.com", target: "_blank", rel: "noopener noreferrer" },
     ],
     displayAllHeaders: false,
-    sidebar: "auto",
     sidebar: {
+      "/guide/": "auto",
       "/instruction/": [
         {
           title: "操作指南",
@@ -41,5 +41,5 @@ module.exports = {
     smoothScroll: true,
     lastUpdated: "最后更新时间",
   },
-  plugins: ["@vuepress/back-to-top", "@vuepress/medium-zoom"],
+  plugins: ["@vuepress/back-to-top", "@vuepress/medium-zoom", "mermaidjs"],
 };
