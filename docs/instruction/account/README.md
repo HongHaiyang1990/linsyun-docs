@@ -1,7 +1,7 @@
 ---
 sidebarDepth: 2
 prev: /instruction/bill/
-next: /instruction/agreement/
+next: /instruction/risk/
 ---
 
 # 我的账户

@@ -17,7 +17,7 @@ module.exports = {
           { text: "创客管理", link: "/instruction/maker/" },
           { text: "结算管理", link: "/instruction/settlement/" },
           { text: "我的账户", link: "/instruction/account/" },
-          { text: "我的协议", link: "/instruction/agreement/" },
+          // { text: "我的协议", link: "/instruction/agreement/" },
           { text: "财务中心", link: "/instruction/finance/" },
           { text: "票税管理", link: "/instruction/bill/" },
           { text: "风控管理", link: "/instruction/risk/" },
@@ -34,7 +34,7 @@ module.exports = {
         {
           title: "操作指南",
           collapsable: false,
-          children: ["login/", "task/", "maker/", "settlement/", "account/", "agreement/", "finance/", "bill/", "risk/", "openapi/"],
+          children: ["login/", "task/", "maker/", "settlement/", "account/", /* "agreement/", */"finance/", "bill/", "risk/", "openapi/"],
         },
       ],
     },

@@ -1,6 +1,6 @@
 ---
 sidebarDepth: 2
-prev: /instruction/agreement/
+prev: /instruction/account/
 next: /instruction/openapi/
 ---
 
