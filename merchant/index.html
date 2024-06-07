@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>商户接口 | 灵时云</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/linsyun-docsfavicon.ico">
+    <meta name="description" content="开发使用说明">
+    
+    <link rel="preload" href="/linsyun-docs/assets/css/0.styles.4dad094a.css" as="style"><link rel="preload" href="/linsyun-docs/assets/js/app.4ce34403.js" as="script"><link rel="preload" href="/linsyun-docs/assets/js/2.7f9018fb.js" as="script"><link rel="preload" href="/linsyun-docs/assets/js/11.9f974fe3.js" as="script"><link rel="prefetch" href="/linsyun-docs/assets/js/10.cc58adac.js"><link rel="prefetch" href="/linsyun-docs/assets/js/12.71026cef.js"><link rel="prefetch" href="/linsyun-docs/assets/js/13.3abca08a.js"><link rel="prefetch" href="/linsyun-docs/assets/js/14.e990c2ad.js"><link rel="prefetch" href="/linsyun-docs/assets/js/3.e5a291f6.js"><link rel="prefetch" href="/linsyun-docs/assets/js/4.56343cf6.js"><link rel="prefetch" href="/linsyun-docs/assets/js/5.854552eb.js"><link rel="prefetch" href="/linsyun-docs/assets/js/6.3f568e7b.js"><link rel="prefetch" href="/linsyun-docs/assets/js/7.38dd6188.js"><link rel="prefetch" href="/linsyun-docs/assets/js/8.69352151.js"><link rel="prefetch" href="/linsyun-docs/assets/js/9.0e207130.js">
+    <link rel="stylesheet" href="/linsyun-docs/assets/css/0.styles.4dad094a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/linsyun-docs/" class="home-link router-link-active"><img src="/linsyun-docslogo.png" alt="灵时云" class="logo"> <span class="site-name can-hide">灵时云</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/linsyun-docs/encryption/" class="nav-link">
+  签名说明
+</a></div><div class="nav-item"><a href="/linsyun-docs/merchant/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  商户接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/authSign/" class="nav-link">
+  创客接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/settlement/" class="nav-link">
+  结算接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/dutiable/" class="nav-link">
+  完税接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/version/" class="nav-link">
+  历史版本
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/linsyun-docs/encryption/" class="nav-link">
+  签名说明
+</a></div><div class="nav-item"><a href="/linsyun-docs/merchant/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  商户接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/authSign/" class="nav-link">
+  创客接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/settlement/" class="nav-link">
+  结算接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/dutiable/" class="nav-link">
+  完税接口
+</a></div><div class="nav-item"><a href="/linsyun-docs/version/" class="nav-link">
+  历史版本
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>商户接口</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/linsyun-docs/merchant/#_1-商户余额查询" class="sidebar-link">1. 商户余额查询</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/linsyun-docs/merchant/#_1-1-商户余额查询接口" class="sidebar-link">1.1 商户余额查询接口</a></li></ul></li><li><a href="/linsyun-docs/merchant/#_2-状态码说明" class="sidebar-link">2. 状态码说明</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="商户接口"><a href="#商户接口" class="header-anchor">#</a> 商户接口</h1> <h2 id="_1-商户余额查询"><a href="#_1-商户余额查询" class="header-anchor">#</a> 1. 商户余额查询</h2> <p>配置不同的发放渠道，会返回不同的账户类型的余额</p> <h3 id="_1-1-商户余额查询接口"><a href="#_1-1-商户余额查询接口" class="header-anchor">#</a> 1.1 商户余额查询接口</h3> <p><strong>请求地址:</strong></p> <div class="language-url extra-class"><pre class="language-url"><code><span class="token scheme">https<span class="token scheme-delimiter">:</span></span><span class="token authority"><span class="token authority-delimiter">//</span></span>{BASE_URL}/api/Merchant/QueryMerchantAccountBalance
+</code></pre></div><p><strong>请求方式: POST</strong></p> <p><strong>BASE_URL:</strong></p> <table><thead><tr><th>环境</th> <th>地址</th></tr></thead> <tbody><tr><td>测试环境</td> <td>pre-lsy-outsource-openapi-interface-api.suuyuu.cn</td></tr> <tr><td>正式环境</td> <td>o.linsyun.com</td></tr></tbody></table> <p><strong>请求参数</strong> <code>请求参数以JSON方式提交</code></p> <table><thead><tr><th>参数名</th> <th>参数说明</th> <th>长度和属性</th> <th>必填</th> <th>备注</th></tr></thead> <tbody><tr><td>memberCode</td> <td>商户号</td> <td>String(50)</td> <td>√</td> <td>商户号，参与签名；例如：<code>SH123456</code></td></tr> <tr><td>updateMarkNo</td> <td>上传标识编号</td> <td>String(50)</td> <td>√</td> <td>上传表示编号，需要全局唯一，参与签名；例如：<code>A001</code></td></tr> <tr><td>timestamp</td> <td>时间戳</td> <td>String(20)</td> <td>√</td> <td>时间戳，格式为：<code>yyyy-MM-dd HH:mm:ss</code>，与当前时间误差不能超过10分钟，参与签名；例如：<code>2000-01-01 10:10:10</code></td></tr> <tr><td>sign</td> <td>签名</td> <td>String(50)</td> <td>√</td> <td>签名规则，见文档中说明；例如：<code>D1BD444BFC916C414248CB9BDC5300561208AD03</code></td></tr></tbody></table> <p><strong>响应参数</strong></p> <table><thead><tr><th>参数名</th> <th>参数说明</th> <th>长度和属性</th> <th>必填</th> <th>备注</th></tr></thead> <tbody><tr><td>code</td> <td>状态码</td> <td>String</td> <td>√</td> <td>正常：0，详情请查看【<a href="#_2-%E7%8A%B6%E6%80%81%E7%A0%81%E8%AF%B4%E6%98%8E">状态码说明</a>】</td></tr> <tr><td>message</td> <td>返回信息描述</td> <td>String</td> <td>√</td> <td></td></tr> <tr><td>messageType</td> <td>返回信息类型</td> <td>Integer</td> <td>√</td> <td></td></tr> <tr><td>data</td> <td>返回数据</td> <td>ResponseModel</td> <td></td> <td>返回数据</td></tr></tbody></table> <p><strong>ResponseModel</strong></p> <table><thead><tr><th>参数名</th> <th>参数说明</th> <th>长度和属性</th> <th>必填</th> <th>备注</th></tr></thead> <tbody><tr><td>list</td> <td>商户账户信息</td> <td>List&lt;QueryModel&gt;</td> <td>√</td> <td>账户信息</td></tr> <tr><td>statistics</td> <td>列表信息</td> <td>ResponseListInfo</td> <td>√</td> <td>总数</td></tr></tbody></table> <p><strong>QueryModel</strong></p> <table><thead><tr><th>参数名</th> <th>参数说明</th> <th>长度和属性</th> <th>必填</th> <th>备注</th></tr></thead> <tbody><tr><td>accountType</td> <td>账户类型</td> <td>String</td> <td>√</td> <td><code>银行账户</code><br><code>支付宝账户</code><br><code>充值账户</code></td></tr> <tr><td>accountBalance</td> <td>账户余额</td> <td>Decimal</td> <td></td> <td></td></tr></tbody></table> <p><strong>ResponseListInfo</strong></p> <table><thead><tr><th>参数名</th> <th>参数说明</th> <th>长度和属性</th> <th>必填</th> <th>备注</th></tr></thead> <tbody><tr><td>total</td> <td>总数</td> <td>Integer</td> <td>√</td> <td></td></tr></tbody></table> <p><strong>参数示例</strong></p> <div class="language-JSON extra-class"><pre class="language-json"><code># 请求参数示例
+<span class="token punctuation">{</span>
+    <span class="token property">&quot;memberCode&quot;</span><span class="token operator">:</span> <span class="token string">&quot;SH123456&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;updateMarkNo&quot;</span><span class="token operator">:</span> <span class="token string">&quot;A001&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;timestamp&quot;</span><span class="token operator">:</span> <span class="token string">&quot;2000-01-01 10:10:10&quot;</span><span class="token punctuation">,</span>
+    <span class="token property">&quot;sign&quot;</span><span class="token operator">:</span> <span class="token string">&quot;D1BD444BFC916C414248CB9BDC5300561208AD03&quot;</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="_2-状态码说明"><a href="#_2-状态码说明" class="header-anchor">#</a> 2. 状态码说明</h2> <table><thead><tr><th>CODE值</th> <th>说明</th></tr></thead> <tbody><tr><td>0</td> <td>成功</td></tr> <tr><td>999</td> <td>失败</td></tr> <tr><td>1000</td> <td>缺少必要参数</td></tr> <tr><td>1001</td> <td>时间戳格式错误</td></tr> <tr><td>1002</td> <td>时间戳已超过有效期</td></tr> <tr><td>1003</td> <td>上传中请勿重复提交</td></tr> <tr><td>1004</td> <td>商户不存在</td></tr> <tr><td>1005</td> <td>商户配置异常</td></tr> <tr><td>1006</td> <td>签名错误</td></tr> <tr><td>1007</td> <td>上传明细数据超过2000条</td></tr> <tr><td>1008</td> <td>上传标识编号已存在</td></tr> <tr><td>1009</td> <td>未上传数据</td></tr> <tr><td>1017</td> <td>存在未校验通过的数据</td></tr> <tr><td>1018</td> <td>明细数据存在空商户流水号的数据</td></tr> <tr><td>1019</td> <td>全订单明细未上传成功</td></tr> <tr><td>1020</td> <td>未开通支付宝通道，下发类型错误</td></tr> <tr><td>1021</td> <td>未开通银行通道，下发类型错误</td></tr> <tr><td>1022</td> <td>任务不存在</td></tr> <tr><td>1023</td> <td>任务未审核通过</td></tr> <tr><td>5000</td> <td>系统异常</td></tr></tbody></table></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">5/9/2024, 3:45:08 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/linsyun-docs/encryption/" class="prev">
+        签名说明
+      </a></span> <span class="next"><a href="/linsyun-docs/authSign/">
+        创客接口
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/linsyun-docs/assets/js/app.4ce34403.js" defer></script><script src="/linsyun-docs/assets/js/2.7f9018fb.js" defer></script><script src="/linsyun-docs/assets/js/11.9f974fe3.js" defer></script>
+  </body>
+</html>
